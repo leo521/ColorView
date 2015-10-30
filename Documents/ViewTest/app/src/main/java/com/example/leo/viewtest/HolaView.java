@@ -19,10 +19,16 @@ public class HolaView extends View {
 
     public HolaView(Context context, AttributeSet attrs) {
         super(context, attrs);
+        init();
     }
+
 
     public HolaView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+    }
+
+    private void init() {
+
     }
 
 
