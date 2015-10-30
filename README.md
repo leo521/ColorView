@@ -1,3 +1,1 @@
-# Leo
 # ColorView
-# Leo
