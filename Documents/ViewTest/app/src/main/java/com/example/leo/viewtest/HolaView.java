@@ -19,7 +19,7 @@ public class HolaView extends View {
 
     public HolaView(Context context, AttributeSet attrs) {
         super(context, attrs);
-        init();
+        init(context, attrs);
     }
 
 
@@ -27,8 +27,10 @@ public class HolaView extends View {
         super(context, attrs, defStyleAttr);
     }
 
-    private void init() {
-
+    private void init(Context context, AttributeSet attrs) {
+        TypedArray array = context.obtainStyledAttributes(attrs, R.styleable.HolaView);
+        array.getDimensionPixelSize(R.styleable.HolaView_HolaViewTextSize, 0);
+        array.getColor(R.styleable.HolaView_pstsUnderlineColor, 0x00000000);
     }
 
 

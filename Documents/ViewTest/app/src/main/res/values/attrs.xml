@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HolaView">
+        <attr name="HolaViewTextSize" format="dimension" />
+        <attr name="pstsUnderlineColor" format="color" />
+    </declare-styleable>
+</resources>
